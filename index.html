@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faris Fayyas | CS × Math @ NYU Abu Dhabi</title>
+  <meta name="description" content="Faris Fayyas, Computer Science and Mathematics student at NYU Abu Dhabi. Builder of SwipeFit, Sonar AI, and production websites for clients in the UAE." />
+  <meta property="og:title" content="Faris Fayyas | CS × Math @ NYU Abu Dhabi" />
+  <meta property="og:description" content="Portfolio: SwipeFit, Sonar AI, Restaurant Template. 2nd in the UAE, Takamul Cup. SAT 1560." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23FFB424' font-family='monospace'>∫</text></svg>" />
+</head>
+<body>
+
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <nav class="nav" aria-label="Primary">
+    <a class="nav-logo" href="#top">FF<span>//</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#honors">Honors</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <canvas id="circuit" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">// SOFTWARE PORTFOLIO · ABU DHABI, UAE</p>
+        <h1 class="hero-name">FARIS<br />FAYYAS</h1>
+        <p class="hero-headline">Computer Science &amp; Mathematics student at <strong>NYU Abu Dhabi</strong>.
+        I build web and mobile applications, from consumer apps to production client websites.</p>
+        <div class="hero-chips">
+          <span class="chip chip-live"><span class="dot" aria-hidden="true"></span>OPEN TO WORK</span>
+          <span class="chip">CLASS OF 2029</span>
+          <span class="chip">FULL-STACK · MOBILE</span>
+        </div>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="mailto:farisfayyas@gmail.com">farisfayyas@gmail.com</a>
+        </div>
+      </div>
+      <div class="hero-readout" aria-hidden="true">
+        <div class="readout-bar"><span></span><span></span><span></span><em>PROFILE SUMMARY</em></div>
+        <pre id="readout"></pre>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">SCROLL ▾</div>
+  </header>
+
+  <main>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <span class="sys">SYS.01</span>
+        <h2>About</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I am a first-year student of <strong>Computer Science and Mathematics at NYU Abu Dhabi</strong>. I built a swipe-to-shop fashion app, co-founded an AI accessibility startup, and deployed production websites for businesses across Abu Dhabi and Ajman.</p>
+          <p>In mathematics, I placed <strong>2nd in the UAE</strong> at the Takamul Cup integration competition and scored <strong>100/100 in CBSE Grade 12 Mathematics</strong>.</p>
+          <p>Outside of coursework, I play chess and lead a food-relief volunteering initiative that has served hundreds of people since 2024.</p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><span class="stat-num" data-count="1560">0</span><span class="stat-den">/1600</span><span class="stat-label">SAT SCORE</span></div>
+          <div class="stat"><span class="stat-num" data-count="2">0</span><span class="stat-den">nd / UAE</span><span class="stat-label">TAKAMUL CUP</span></div>
+          <div class="stat"><span class="stat-num" data-count="100">0</span><span class="stat-den">/100</span><span class="stat-label">CBSE GRADE 12 MATH</span></div>
+          <div class="stat"><span class="stat-num" data-count="1">0</span><span class="stat-den">% INTL</span><span class="stat-label">TOP, BENCHMARK TEST</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <span class="sys">SYS.02</span>
+        <h2>Projects</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+
+      <article class="project project-featured reveal">
+        <div class="project-info">
+          <p class="project-tag">FEATURED · MOBILE APP</p>
+          <h3>SwipeFit</h3>
+          <p class="project-desc">A swipe-to-shop fashion app. Swipe right to like, left to pass, and up to add to cart. Every swipe feeds a recommendation engine that learns the user's style over time. Includes search, cart, chat, and full item detail screens, backed by a database with row-level security.</p>
+          <ul class="tech">
+            <li>Expo / React Native</li><li>TypeScript</li><li>Zustand</li><li>Supabase</li><li>PostgreSQL</li><li>Reanimated 4</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://swipefitae.vercel.app" target="_blank" rel="noopener">Visit site ↗</a>
+            <span class="private-note">Launching soon</span>
+          </div>
+        </div>
+        <div class="project-visual">
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <img class="phone-shot" src="assets/swipefit-swipe.png" alt="SwipeFit swipe feed showing an item card" loading="lazy" />
+          </div>
+        </div>
+      </article>
+
+      <div class="project-row">
+        <article class="project reveal">
+          <p class="project-tag">WEB · CLIENT TEMPLATE</p>
+          <h3>Restaurant Template</h3>
+          <p class="project-desc">A bilingual English/Arabic restaurant website template with a video hero, menu with dietary tags, gallery, reservations API, online ordering, WhatsApp integration, and a live open/closed badge. Every deployment is customized from a single config file.</p>
+          <ul class="tech"><li>Next.js 15</li><li>TypeScript</li><li>i18n (EN/AR)</li><li>Vercel</li></ul>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://faris-restaurant-template.vercel.app/en" target="_blank" rel="noopener">Live demo ↗</a>
+            <a class="btn btn-ghost" href="https://github.com/Farisfayyas/restaurant-template" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <p class="project-tag">WEB · ACCESSIBILITY AI</p>
+          <h3>Sonar AI</h3>
+          <p class="project-desc">Co-founded an AI-powered accessibility web app for blind and low-vision users. Voice interaction and image processing create an eyes-free interface: real-time voice commands in, audio feedback out, built on the Web Speech API.</p>
+          <ul class="tech"><li>React</li><li>Node.js</li><li>Web Speech API</li><li>Image processing</li></ul>
+          <div class="project-links">
+            <span class="private-note">in development, Jan 2026 - present</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="section-head">
+        <span class="sys">SYS.03</span>
+        <h2>Experience</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <ol class="timeline">
+        <li class="t-item reveal">
+          <span class="t-date">JUN 2026 - JUL 2026</span>
+          <div class="t-body">
+            <h3>IT Intern <span>· Technomax Middle East Engg. LLC</span></h3>
+            <p>Managed and optimized network infrastructure and hardware configurations. Scripted automation tools to audit system logs and maintenance schedules, catching bottlenecks before they hit employee workflows. Assisted SAP system integration and training across departments.</p>
+          </div>
+        </li>
+        <li class="t-item reveal">
+          <span class="t-date">JAN 2026 - PRESENT</span>
+          <div class="t-body">
+            <h3>Co-Founder <span>· Sonar AI</span></h3>
+            <p>Engineering an AI-powered accessibility web app for blind and low-vision users: voice interaction and image processing with React and Node.js, using the Web Speech API for real-time, eyes-free control with audio feedback.</p>
+          </div>
+        </li>
+        <li class="t-item reveal">
+          <span class="t-date">DEC 2025 - PRESENT</span>
+          <div class="t-body">
+            <h3>Freelance Web Developer <span>· Abu Dhabi &amp; Ajman</span></h3>
+            <p>Architect and deploy websites for companies across Abu Dhabi and Ajman using Next.js and TypeScript, with custom UI/UX components built to client specification.</p>
+          </div>
+        </li>
+        <li class="t-item reveal">
+          <span class="t-date">MAR 2024 - FEB 2025</span>
+          <div class="t-body">
+            <h3>Tutor <span>· Private Tutoring</span></h3>
+            <p>Tutored Math, Science, Arabic, and SAT (Math and R&amp;W). Students gained 100+ SAT points, and one reached first rank in their year.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="section-head">
+        <span class="sys">SYS.04</span>
+        <h2>Education</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div class="edu-grid">
+        <div class="card reveal">
+          <p class="project-tag">2025 - 2029</p>
+          <h3>New York University Abu Dhabi</h3>
+          <p class="card-sub">B.S. Computer Science &amp; Mathematics</p>
+          <p class="card-body">Coursework: Object-Oriented Programming, Data Structures, Multi-Variable Calculus, Linear Algebra, Discrete Mathematics, Python.</p>
+        </div>
+        <div class="card reveal">
+          <p class="project-tag">2013 - 2025</p>
+          <h3>Bright Riders School</h3>
+          <p class="card-sub">High School Diploma · CBSE</p>
+          <p class="card-body">Grade 12 Mathematics topper in school and globally, with 100/100. SAT 1560/1600 (Math 790 · English 770).</p>
+        </div>
+        <div class="card reveal">
+          <p class="project-tag">CERTIFICATIONS</p>
+          <h3>Additional Learning</h3>
+          <ul class="cert-list">
+            <li>Harvard University: CS50 Computer Science</li>
+            <li>Andrew Ng: Supervised Machine Learning, Regression and Classification</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HONORS ============ -->
+    <section class="section" id="honors">
+      <div class="section-head">
+        <span class="sys">SYS.05</span>
+        <h2>Honors &amp; Awards</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <ul class="honors">
+        <li class="honor reveal">
+          <span class="honor-badge"><span class="honor-rank">2<em>nd</em></span><span class="honor-scope">UAE</span></span>
+          <div><h3>Takamul Cup, National Integration Competition</h3>
+          <p>2nd in the UAE, 1st in university. Selected to represent NYU Abu Dhabi; won a cash prize competing against university students nationwide.</p></div>
+        </li>
+        <li class="honor reveal">
+          <span class="honor-badge"><span class="honor-rank">1<em>st</em></span><span class="honor-scope">UAE</span></span>
+          <div><h3>PAN UAE Competition, Physics Wallah</h3>
+          <p>Rank 1 in the UAE for Mathematics; Top 20 across Math, Physics, and Chemistry combined.</p></div>
+        </li>
+        <li class="honor reveal">
+          <span class="honor-badge"><span class="honor-rank">100<em>/100</em></span><span class="honor-scope">GLOBAL</span></span>
+          <div><h3>CBSE National Board Examinations</h3>
+          <p>Grade 12 Mathematics topper in school and globally with a perfect score.</p></div>
+        </li>
+        <li class="honor reveal">
+          <span class="honor-badge"><span class="honor-rank">♞</span><span class="honor-scope">ABU DHABI</span></span>
+          <div><h3>Abu Dhabi Blitz Chess Tournament</h3>
+          <p>2nd runner-up across all age groups.</p></div>
+        </li>
+        <li class="honor reveal">
+          <span class="honor-badge"><span class="honor-rank">🎙</span><span class="honor-scope">INTL</span></span>
+          <div><h3>Toastmasters International</h3>
+          <p>Best Table Topics Speaker.</p></div>
+        </li>
+        <li class="honor reveal">
+          <span class="honor-badge"><span class="honor-rank">1<em>%</em></span><span class="honor-scope">INTL</span></span>
+          <div><h3>International Benchmark Test</h3>
+          <p>Top 1% internationally, with High Distinction in Math and Science.</p></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="section-head">
+        <span class="sys">SYS.06</span>
+        <h2>Skills</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <h3>LANGUAGES &amp; FRAMEWORKS</h3>
+          <ul class="tech tech-lg"><li>Python</li><li>C++</li><li>TypeScript</li><li>JavaScript</li><li>React</li><li>React Native / Expo</li><li>Next.js</li><li>Node.js</li><li>SQL</li><li>HTML / CSS</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>TOOLS &amp; SYSTEMS</h3>
+          <ul class="tech tech-lg"><li>Git / GitHub</li><li>Supabase</li><li>Vercel</li><li>VS Code</li><li>Replit</li><li>LaTeX</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>HUMAN LANGUAGES</h3>
+          <ul class="tech tech-lg"><li>English - Full professional</li><li>Malayalam - Full professional</li><li>Arabic - Limited working</li><li>Hindi - Limited working</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VOLUNTEERING ============ -->
+    <section class="section" id="volunteering">
+      <div class="section-head">
+        <span class="sys">SYS.07</span>
+        <h2>Volunteering</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div class="edu-grid">
+        <div class="card reveal">
+          <p class="project-tag">MAR 2024 - PRESENT</p>
+          <h3>Founder · Food-Relief Initiative</h3>
+          <p class="card-body">Founded and lead a volunteering initiative, coordinating teams to prepare, pack, and serve food to hundreds of underprivileged people.</p>
+        </div>
+        <div class="card reveal">
+          <p class="project-tag">AUG 2024</p>
+          <h3>Event Organizer · Inter-School Quiz</h3>
+          <p class="card-body">Organized an inter-school quiz competition bringing together students from six schools.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <p class="hero-eyebrow">// CONTACT</p>
+      <h2>Get in touch.</h2>
+      <p class="contact-sub">Open to internships, freelance work, and collaboration.</p>
+      <a class="contact-mail" href="mailto:farisfayyas@gmail.com">farisfayyas@gmail.com</a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/faris-fayyas/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/Farisfayyas" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 FARIS FAYYAS</span>
+    <span>ABU DHABI, UNITED ARAB EMIRATES</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
